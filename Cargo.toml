@@ -1,0 +1,16 @@
+[package]
+name = "lis302dl"
+version = "0.1.0"
+authors = ["Bryant Chandler <bryantchandler@google.com>"]
+edition = "2018"
+categories = [
+    "embedded",
+    "no-std",
+]
+keywords = ["spi", "embedded-hal-driver"]
+repository = "https://github.com/brychanrobot/lis302dl"
+license = "Apache-2.0"
+
+[dependencies]
+accelerometer = "0.11.0"
+embedded-hal = "0.2"
