@@ -12,6 +12,8 @@ repository = "https://github.com/brychanrobot/lis302dl"
 license = "Apache-2.0"
 description = "An embedded-hal driver for the LIS302DL accelerometer found on the STM32F4 Discovery Board"
 readme = "README.md"
+documentation = "https://docs.rs/crate/lis302dl"
+exclude = [".github/*"]
 
 [dependencies]
 accelerometer = "0.11.0"
